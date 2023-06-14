@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.offers{
+    background-image: linear-gradient(to right, red ,green,yellow);
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+/* ul{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 30%;
+    background-color: rgb(127, 236, 255);
+    position: relative;
+    left: 352px;
+    padding-left: 328px;
+    margin-bottom: 20px;
+
+    
+   
+} */
+.nav{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 50%;
+    background-color: rgb(127, 236, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    left: 354px;
+    
+}
+ul li{
+    
+     padding-left: 20px; 
+}
+.container{
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* gap: 20px; */
+    background-color: aquamarine;
+    margin-bottom: 20px;
+
+}
+.child{
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 30%;
+    background-color: aqua;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.performace{
+    background-image: linear-gradient(to left,red,yellow,red);
+    text-align: center;
+    text-decoration: underline red;
+    padding-bottom: 25px;
+}
+.parent{
+    border: 2px solid green;
+    background-image: radial-gradient(rgba(55, 55, 240, 0.797) 30%,rgb(86, 86, 217),  lightgreen);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+    margin-top: 20px;
+}
+.box{
+    width: 15%;
+    border: 2px solid red;
+    height: 104px;
+    background-color: yellow;
+    color: red;
+    text-decoration: underline red;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+    font-weight: 700;
+
+}
+.box4{
+    margin-right: 83px
+}
+.GridContainer {
+    height: 300px;
+    margin: 40px 0px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+  
+}
+.GridItem{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+.Item1{
+    grid-column: 1/5;
+    background-color: #dc3545;
+    text-align: center;
+}
+.Item2{
+    background-color: #28a745;
+    grid-column: 1/2;
+    text-align: center;
+    height: 75px;
+    
+}
+.Item2 p{
+    margin: 0px auto;
+    font-size: 30px;
+    width: 70%;
+}
+
+.Item3{
+    background-color: #007bff;
+    grid-column: 2/3;
+    height: 75px;
+}
+.Item3 p{
+    font-size: 25px;
+    width: 80%;
+}
+
+.Item4{
+    background-color: #17a2b8;
+    grid-column: 3/4;
+    height: 75px;
+}
+.Item4 p{
+    width: 65%;
+    font-size: 20px;
+}
+
+.Item5{
+    background-color: #343a40;
+    grid-column: 4/5;
+    grid-row: 2/6;
+    width: 70px;
+}
+.Item5 p{
+    font-weight: 500;
+    border-bottom: 2px solid white;
+}
+.Item6{
+    background-color: #ffc107;
+    grid-column: 1/4;
+    grid-row: 3/6;
+}
+.Item6 p{
+    font-size: 22px;
+}
+.Item7{
+    grid-column: 1/5;
+    background-color: aqua;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+}
